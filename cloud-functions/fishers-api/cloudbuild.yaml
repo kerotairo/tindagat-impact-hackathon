@@ -1,0 +1,11 @@
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  args:
+  - functions
+  - deploy
+  - fishers
+  - --region=asia-east2
+  - --runtime=nodejs10
+  - --source=fishers-api
+  - --trigger-http
+  - --entry-point=fishers

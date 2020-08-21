@@ -1,0 +1,6 @@
+indexes:
+
+- kind: fishers
+  ancestor: yes
+  properties:
+  - name: fullname
